@@ -31,11 +31,12 @@ public class ConvertSortedListToBinarySearchTree {
             return node;
         }
 
-        TreeNode left = dfs(n/2);
+        int midNode = n/2;
+        TreeNode left = dfs(midNode);
         TreeNode node = new TreeNode(next.val);
         node.left = left;
         next = next.next;
-        node.right = dfs((n-1)/2);
+        node.right = dfs(n - midNode - 1);
         return node;
     }
 }
