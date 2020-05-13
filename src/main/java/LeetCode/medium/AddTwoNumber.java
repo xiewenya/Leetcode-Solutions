@@ -10,6 +10,7 @@ public class AddTwoNumber {
         Integer carry = 0;
         ListNode header = null;
         ListNode currentNode = null;
+        char tmp = '0';
         while (!(l1 == null && l2 == null && carry == 0)){
             Integer result = (returnVal(l1) + returnVal(l2) + carry) % 10;
             carry = (returnVal(l1) + returnVal(l2) + carry) / 10;
