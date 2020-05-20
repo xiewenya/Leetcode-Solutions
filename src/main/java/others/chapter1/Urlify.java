@@ -1,4 +1,4 @@
-package others;
+package others.chapter1;
 
 /**
  * @version 1.0

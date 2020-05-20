@@ -1,4 +1,4 @@
-package others;
+package others.chapter3;
 
 import java.util.ArrayList;
 import java.util.List;

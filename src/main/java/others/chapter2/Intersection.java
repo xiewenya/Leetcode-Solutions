@@ -1,4 +1,4 @@
-package others;
+package others.chapter2;
 
 import others.common.Node;
 

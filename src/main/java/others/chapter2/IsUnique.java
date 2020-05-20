@@ -1,4 +1,4 @@
-package others;
+package others.chapter2;
 
 import java.util.HashSet;
 import java.util.Set;

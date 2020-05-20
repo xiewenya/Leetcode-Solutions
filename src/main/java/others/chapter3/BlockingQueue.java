@@ -1,4 +1,4 @@
-package others;
+package others.chapter3;
 
 import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
